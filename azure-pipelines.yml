@@ -1,12 +1,12 @@
 # Maven
-- task: DeployVisualStudioTestAgent@1
-  inputs:
-    testMachineGroup: 'admin'
-    adminUserName: 'admin'
-    adminPassword: 'admin'
-    winRmProtocol: 'Https'
-    machineUserName: 'admin'
-    machinePassword: 'admin'
+#- task: DeployVisualStudioTestAgent@1
+#  inputs:
+#    testMachineGroup: 'admin'
+#    adminUserName: 'admin'
+#    adminPassword: 'admin'
+#    winRmProtocol: 'Https'
+#    machineUserName: 'admin'
+#    machinePassword: 'admin'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
